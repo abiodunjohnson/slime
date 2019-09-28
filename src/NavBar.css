@@ -1,0 +1,58 @@
+body {
+    font-family: 'Poiret One', cursive;
+    font-family: 'Belgrano', serif;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+}
+
+ .navbar-collapse  {
+    background-color: transparent;
+}
+
+.navbar {
+    background-color: transparent;
+    padding-left: 70px;
+    padding-right: 80px;
+}
+
+.nav-link {
+    color: #ffffff!important;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+
+
+.nav-link:hover{
+    color: #74c044!important;
+
+}
+
+.section-slider {
+    width: 100%;
+}
+
+.carousel-image {
+    height: 42rem;
+    width: 100%;
+    filter: brightness(0.3);
+}
+
+
+
+.description {
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    margin-top: 0px;
+    margin-bottom: 16rem;
+    margin-right: 300px;
+    font-size: 70px;
+    font-weight: 700;
+    color: #ffff;
+    line-height: 1.2;
+    text-transform: capitalize;
+    text-align: left;
+}
