@@ -27,7 +27,12 @@ React.useEffect(()=>{
 					setIndex(i);
 				}}
 			>
-				{images.map((image) => <GalleryImage objectFit="fit" src={image} />)}
+				{images.map((image) => <GalleryImage style={{
+					width : '100%',
+					height: '650px',
+					marginTop: '0rem'
+					// marginBottom: '2rem'
+				}} objectFit="cover" src={image} />)}
 			</Gallery>
 			<h1>hello</h1>
 		</div>
