@@ -1,0 +1,23 @@
+.choose-heading {
+    font-size: 40px;
+    color: #43a705;
+    text-align: center;
+}
+
+.why-body {
+    padding-top: 20px;
+    border: 1px solid #dad8d8;
+}
+
+.why-head, .why-text, .why-paragraph {
+    margin-left: 10px;
+}
+
+.photoss {
+    width: 22rem;
+    height: 17rem;
+}
+
+.choose_pix_cont {
+    padding-top: 10px;
+}
