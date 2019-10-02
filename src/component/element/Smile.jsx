@@ -1,12 +1,13 @@
 import React from 'react';
-import Example from './NavBar/Example';
-import Example2 from './NavBar/Nav2';
+import Slider from './NavBar/Slider';
+import NavigationBar from './NavBar/Nav'
 
 function Smile() {
 	return (
 		<div>
-			<Example2/>
-			<Example />
+			<NavigationBar/>
+			<Slider />
+		
 		</div>
 	);
 }
