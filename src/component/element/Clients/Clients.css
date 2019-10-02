@@ -2,39 +2,40 @@
     background-image: url("/images/background.jpg");
     height: 80vh;
     background-position: center;
-    background-size: cover;
+    background-size: cover; 
      /* filter: brightness(0.6); */
- }
- 
- .client-heading {
+}
+
+.client-heading {
     text-align: center;
     color: #74c044;
- }
- 
- .clients-img {
+}
+
+.clients-img {
     text-align: right;
- }
- 
- .client-paragraph {
+}
+
+.client-paragraph {
   color: #4c4c4c;
- }
- 
- .clients-image {
+}
+
+.clients-image {
     width: 4rem;
     margin-bottom: -15px;
     margin-right: 20px;
- }
- 
- .client-card {
+}
+
+.client-card {
     border: 1px solid #ffffff;
     background-color: #ffffff;
     padding: 2rem 1.5rem;
- }
- .client-text {
+}
+.client-text {
     margin-bottom: 1rem!important;
     text-align: center;
- }
- .client-name {
+}
+.client-name {
     font-size: 25px;
     font-weight: 100;
- }
+}
+
