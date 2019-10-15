@@ -82,7 +82,7 @@ import {
               <NavLink ><Link className="nav-link" to="/photo">Photo</Link></NavLink>
             </NavItem>
             <NavItem>
-            <NavLink className="nav-link" href="">Contact</NavLink>
+            <NavLink className="nav-link" href=""><Link className="nav-link" to="/contact">Contact</Link></NavLink>
           </NavItem>
             </Nav>
           </Collapse>
