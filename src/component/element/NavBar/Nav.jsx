@@ -1,5 +1,5 @@
 import React from 'react';
-import $ from 'jquery';
+// import $ from 'jquery';
 // import {findDOMNode} from 'react-dom';
 import {
   Collapse,
@@ -33,16 +33,16 @@ import {
 
 
 componentDidMount = ()=>{
-  $("Navbar").show();
+  // $("Navbar").show();
 
     
-        $('Navbar').scroll(function() {
-            if ($(this).scrollTop() < 570) {
-                $('Navbar').fadeIn();
-            } else {
-                $('Navbar').fadeOut();
-            }
-        });
+  //       $('Navbar').scroll(function() {
+  //           if ($(this).scrollTop() < 570) {
+  //               $('Navbar').fadeIn();
+  //           } else {
+  //               $('Navbar').fadeOut();
+  //           }
+  //       });
     
 }
 
