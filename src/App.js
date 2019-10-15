@@ -4,7 +4,7 @@ import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Smile from './component/element/Smile';
 import AboutUs from './component/element/AboutUs/AboutUs.jsx';
-import Photo from './component/element/AboutUs/Photo';
+import Photo from './component/element/AboutUs/Photo.jsx';
 import Snails from './component/element/AboutUs/Snails';
 import Training from './component/element/AboutUs/Training';
 

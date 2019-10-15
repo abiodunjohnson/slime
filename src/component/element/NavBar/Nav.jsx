@@ -1,4 +1,5 @@
 import React from 'react';
+import './Nav.css';
 // import $ from 'jquery';
 // import {findDOMNode} from 'react-dom';
 import {
@@ -32,7 +33,7 @@ import {
   }
 
 
-componentDidMount = ()=>{
+// componentDidMount = ()=>{
   // $("Navbar").show();
 
     
@@ -44,21 +45,21 @@ componentDidMount = ()=>{
   //           }
   //       });
     
-}
+// }
 
   render() {
     return (
-      <div>
-        <Navbar color="light" light expand="md">
-          <NavbarBrand href="/"><img src="https://i.ibb.co/f4GcYvC/SLIME-STOCK.png"  width="60px;" alt="Slimestock Logo" class="logo" /></NavbarBrand>
+      <div className="nav-container">
+        <Navbar   expand="md" fixed="top">
+          <NavbarBrand href="/"><img src="https://i.ibb.co/f4GcYvC/SLIME-STOCK.png"  width="60px;" alt="Slimestock Logo" className="logo" /></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+            <Nav className="ml-auto navbar" navbar>
               <NavItem>
-                <NavLink>   <Link to='/'>Home </Link></NavLink>
+                <NavLink >   <Link className="nav-link" to='/'>Home </Link></NavLink>
               </NavItem>
               <NavItem>
-           <NavLink> <Link to ='/aboutus' >About</Link> </NavLink>
+           <NavLink> <Link  className="nav-link" to ='/aboutus' >About</Link> </NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
@@ -66,10 +67,10 @@ componentDidMount = ()=>{
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-            <Link to='/training'> Training </Link> 
+            <Link className="nav-link" to='/training'> Training </Link> 
                   </DropdownItem>
                   <DropdownItem>
-                  <Link to='/snails'> Snails </Link>
+                  <Link className="nav-link" to='/snails'> Snails </Link>
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
@@ -78,10 +79,10 @@ componentDidMount = ()=>{
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-              <NavLink><Link to="/photo">Photo</Link></NavLink>
+              <NavLink ><Link className="nav-link" to="/photo">Photo</Link></NavLink>
             </NavItem>
             <NavItem>
-            <NavLink href="">Contact</NavLink>
+            <NavLink className="nav-link" href="">Contact</NavLink>
           </NavItem>
             </Nav>
           </Collapse>
