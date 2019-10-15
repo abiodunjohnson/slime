@@ -25,7 +25,7 @@ import { Link } from 'react-router-dom';
                                         <li className="link-style"><Link to="/aboutus">About Us</Link></li>
                                         <li className="link-style"><Link to="/">Product</Link></li>
                                         <li className="link-style"><Link to="/">Service</Link></li>
-                                        <li className="link-style"><Link to="/">Privacy</Link></li>
+                                        {/* <li className="link-style"><Link to="/">Privacy</Link></li> */}
                                     </ul>
                                     
                                 {/* <ul> <li></li>class="link-style"><li>="index.html">Home</li>
