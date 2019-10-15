@@ -3,7 +3,7 @@ import './AboutUs.css';
 
 
 
- class AboutUs extends React.Component {
+ class About extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -61,4 +61,4 @@ import './AboutUs.css';
     }
 }
 
-export default AboutUs;
+export default About;

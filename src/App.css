@@ -1,0 +1,14 @@
+
+
+.image-captpion{
+  width: 100%;
+  height: 600px;
+  padding: .2rem;
+}
+.word{
+  position: absolute;
+  top:15rem;
+  color: #fff;
+  left: 13rem;
+}
+
