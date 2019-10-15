@@ -7,6 +7,7 @@ import AboutUs from './component/element/AboutUs/AboutUs.jsx';
 import Photo from './component/element/AboutUs/Photo.jsx';
 import Snails from './component/element/AboutUs/Snails';
 import Training from './component/element/AboutUs/Training';
+import Contact from './component/element/Contact/Contact';
 
 
 const Error =()=>{
@@ -31,6 +32,7 @@ function App() {
 <Route path="/photo" component={Photo} />
 <Route path="/snails" component={Snails} />
 <Route path="/training" component={Training} />
+<Route path="/contact" component={Contact} />
 <Route component={Error} />
 
 </Switch>
