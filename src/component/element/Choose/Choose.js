@@ -8,7 +8,7 @@ class Choose extends React.Component {
                     <div className="container">
                         <div className="row">
                             <div className="col">
-                                <div className="choose-heading">Why To Choose Us</div>
+                                <div className="choose-heading">Why Slimestock?</div>
                             </div>
                         </div>
 
@@ -18,7 +18,7 @@ class Choose extends React.Component {
                                     <img className="snail img-fluid" src="/images/Choose1.jpg" alt="snail1" />   
                                     <div className="why-body">
                                         <h5 className="why-head">Quality Products</h5>
-                                        <p className="why-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                      
                                         <p className="why-text"> We ensure our snails are fed with the best quality and right combination of feed to make them healthy and edible.</p>
                                     </div>
                                  </div>
@@ -28,8 +28,8 @@ class Choose extends React.Component {
                                 <div className="why">
                                     <img className="photoss img-fluid" src="/images/Choose2.jpg" alt="snail1" />   
                                     <div className="why-body">
-                                        <h5 className="why-head">Quality Products</h5>
-                                        <p className="why-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                        <h5 className="why-head">Work Smart</h5>
+                                       
                                         <p className="why-text"> We ensure our snails are fed with the best quality and right combination of feed to make them healthy and edible.</p>
                                     </div>
                                  </div>
@@ -39,8 +39,8 @@ class Choose extends React.Component {
                                 <div className="why">
                                     <img className="snail img-fluid" src="/images/Choose1.jpg" alt="snail1" />   
                                     <div className="why-body">
-                                        <h5 className="why-head">Quality Products</h5>
-                                        <p className="why-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                        <h5 className="why-head">Excellent Services</h5>
+                                       
                                         <p className="why-text"> We ensure our snails are fed with the best quality and right combination of feed to make them healthy and edible.</p>
                                     </div>
                                  </div>

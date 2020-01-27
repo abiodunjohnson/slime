@@ -8,22 +8,36 @@
 
 .client-heading {
     text-align: center;
-    color: #74c044;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 20px;
 }
 
 .clients-img {
-    text-align: right;
+    text-align: left;
+    /* border-radius: 20px; */
+    margin-left: -07px;
+}
+
+.clients-image {
+    width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: -15px;
+  margin-left: 0px;
+
+  object-fit: cover;
+  object-position: center right;
+    /* width: 4rem;
+    margin-bottom: -15px;
+    margin-right: 20px; */
 }
 
 .client-paragraph {
   color: #4c4c4c;
 }
 
-.clients-image {
-    width: 4rem;
-    margin-bottom: -15px;
-    margin-right: 20px;
-}
+
 
 .client-card {
     border: 1px solid #ffffff;

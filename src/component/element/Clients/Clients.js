@@ -18,7 +18,7 @@ class Clients extends React.Component {
                         <div className="row">
                             <div className="col-6">
                                 <div className="clients-img">
-                                <img className="clients-image" src="/images/mf-avatar.svg" alt="snail1" />
+                                  <img className="clients-image" src="/images/Snail1.jpg" alt="snail1" />
                                 </div>
 
                                 <div className="client-card">
@@ -31,7 +31,7 @@ class Clients extends React.Component {
 
                             <div className="col-6">
                                 <div className="clients-img">
-                                <img className="clients-image" src="/images/mf-avatar.svg" alt="snail1" />
+                                <img className="clients-image" src="/images/Snail1.jpg" alt="snail1" />
                                 </div>
 
                                 <div className="client-card">

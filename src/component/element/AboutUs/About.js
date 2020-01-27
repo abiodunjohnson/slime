@@ -28,16 +28,17 @@ import './AboutUs.css';
                     <div className="row abt-cont">
                         <div className="col-6">
                         
-                        <img className="snail" src="/images/Snail1.jpg" alt="snail1" />   
+                        <img className="about-picture" src="/images/Snail1.jpg" alt="snail1" />   
                         </div>
                         <div className="col-6">
                             <div className="about_all">
                               <h1 className="about_heading">About Our Farm</h1>
-                              <p className="about_paragraph">We are committed to snail        farming, snail meat            processing, and packaging.
-                               SlimeStock is an agribusiness Company in Nigeria, offering snail products in the Nigerian Agricultural sector. 
+                              <p className="about_paragraph">We are committed to snail farming, snail meat            processing, and packaging.
+                               SlimeStock is an agribusiness Company in Nigeria, offering snail products in the Nigerian Agricultural sector.{this.state.show && <Next />} <a href onClick={this.handleClick} className="read_more">Read More</a>
                               </p>
-                             {this.state.show && <Next />}
-                             <button onClick={this.handleClick} className="read_more">Read More</button>
+                             
+                             
+                             
                             </div>
                         </div>
                     </div>
