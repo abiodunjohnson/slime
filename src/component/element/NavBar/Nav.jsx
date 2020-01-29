@@ -51,7 +51,7 @@ import {
     return (
       <div className="nav-container">
         <Navbar   expand="md" fixed="top">
-          <NavbarBrand href="/"><img src="https://i.ibb.co/f4GcYvC/SLIME-STOCK.png"  width="60px;" alt="Slimestock Logo" className="logo" /></NavbarBrand>
+          <NavbarBrand href="/"><img className="img-fluid"  src="https://i.ibb.co/f4GcYvC/SLIME-STOCK.png"  width="60px;" alt="Slimestock Logo" className="logo" /></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto navbar" navbar>
