@@ -1,0 +1,30 @@
+body{
+    height: 120vh;
+}
+
+.nav{
+    width: 100%;
+    justify-content: center;
+    transition: 1.95s;
+}
+.nav_text{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.nav_text h1 {
+    font-size: 1.5rem;
+    transition: 0.25s;
+
+}
+
+.nav_text h1:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+.scrolled{
+    position: fixed;
+    background-color:green;
+    z-index: 9;
+}
