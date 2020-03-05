@@ -4,17 +4,20 @@ import './AboutUs.css';
 
 
  class About extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            show : false
+    // constructor(props) {
+        // super(props)
+        state = {
+            show : false,
+            show_more: false
         };
-    }
+    // }
 
     handleClick = () => {
-        const {show} = this.state
+        const {show,show_more} = this.state
         this.setState({ 
-            show : !show
+            show : !show,
+            show_more:!show_more
+
         })
     }
 
@@ -37,7 +40,7 @@ import './AboutUs.css';
                                SlimeStock is an agribusiness Company in Nigeria, offering snail products in the Nigerian Agricultural sector. 
                               </p>
                              {this.state.show && <Next />}
-                             <button onClick={this.handleClick} className="read_more">Read More</button>
+                             <button onClick={this.handleClick} className="read_more">{this.state.show_more? "Show Less" : "Read More"}</button>
                             </div>
                         </div>
                     </div>
