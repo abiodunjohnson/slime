@@ -15,8 +15,9 @@
 .read_more {
     background-color: transparent;
     color: #FF8A00 !important;
-    /* margin-left: 16rem; */
+    
     outline: none !important;
+    border: none;
     /* border-top: none;
     border-right: none;
     border-bottom: 1px solid #000000;

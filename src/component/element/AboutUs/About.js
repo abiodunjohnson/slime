@@ -4,17 +4,20 @@ import './AboutUs.css';
 
 
  class About extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            show : false
+    // constructor(props) {
+    //     super(props)
+        state = {
+            show : false,
+            show_more: false
         };
-    }
+    // }
 
     handleClick = () => {
-        const {show} = this.state
+        const {show,show_more} = this.state
         this.setState({ 
-            show : !show
+            show : !show,
+            show_more:!show_more
+
         })
     }
 
@@ -34,11 +37,16 @@ import './AboutUs.css';
                             <div className="about_all">
                               <h1 className="about_heading">About Our Farm</h1>
                               <p className="about_paragraph">We are committed to snail farming, snail meat            processing, and packaging.
-                               SlimeStock is an agribusiness Company in Nigeria, offering snail products in the Nigerian Agricultural sector.{this.state.show && <Next />} <a href onClick={this.handleClick} className="read_more">Read More</a>
+                               SlimeStock is an agribusiness Company in Nigeria, offering snail products in the Nigerian Agricultural sector.{this.state.show && <Next />} <a href onClick={this.handleClick}></a>
                               </p>
+
                              
                              
                              
+
+                             {this.state.show && <Next />}
+                             <button onClick={this.handleClick} className="read_more">{this.state.show_more? "Show Less" : "Show More"}</button>
+
                             </div>
                         </div>
                     </div>
