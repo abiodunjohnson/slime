@@ -40,9 +40,10 @@ import {
     //  }
     render() {
         return (
-            <div className={this.state.scrolled ? 'nav scrolled': 'nav'}>
-                <Navbar   expand="md">
-                <NavbarBrand href="/"><img className="img-fluid"  src="https://i.ibb.co/f4GcYvC/SLIME-STOCK.png"  width="60px;" alt="Slimestock Logo" className="logo3" /></NavbarBrand>
+         
+            <div className={this.state.scrolled ? 'nav scrolled': 'nav'} >
+                <Navbar className="navbar"  expand="md">
+                <NavbarBrand href="/"><img className="img-fluid logo-image"  src="https://i.ibb.co/f4GcYvC/SLIME-STOCK.png"  width="60px;" alt="Slimestock Logo"  /></NavbarBrand>
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
                   <Nav className="ml-auto navbar" navbar>
@@ -80,6 +81,7 @@ import {
               </Navbar>
 
             </div>
+           
         )
     }
 }

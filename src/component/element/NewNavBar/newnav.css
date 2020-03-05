@@ -6,25 +6,41 @@ body{
     width: 100%;
     justify-content: center;
     transition: 1.95s;
+    
 }
-.nav_text{
+
+.navbar {
+    background-color: transparent;
+}
+
+/* .nav_text{
     width:100%;
     display: flex;
     justify-content: space-around;
     padding: 1rem;
-}
+} */
+
 .nav_text h1 {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     transition: 0.25s;
 
 }
 
+.nav-link {
+    color: #fff;
+}
+
 .nav_text h1:hover{
-    color: blueviolet;
+    color: rgb(43, 226, 52);
     cursor: pointer;
 }
+
+.logo-image {
+    margin-right: 35rem;
+}
+
 .scrolled{
     position: fixed;
-    background-color:green;
+    background-color:#74c044;
     z-index: 9;
 }

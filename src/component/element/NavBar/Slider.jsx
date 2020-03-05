@@ -9,17 +9,17 @@ import {
 
 const items = [
   { src: 'https://i.ibb.co/jHQwnh4/imgsnail1.jpg',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
+    altText: '',
+    caption: ''
   },
   { 
     src: 'https://i.ibb.co/rvQz4cz/IMG-20190618-WA0053.jpg',  
-    altText: 'Slide 2',
-    caption: 'Slide 2'
+    altText: '',
+    caption: ''
   },
   { src: 'https://i.ibb.co/XxrpR0T/IMG-20190618-WA0052.jpg',
-    altText: 'Slide 3',
-    caption: 'Slide 3'
+    altText: '',
+    caption: ''
   }
 ];
 
